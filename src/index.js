@@ -1,14 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
+import MainApp from "./tries/MainApp/MainApp";
+import Try2FuncComponent from "./tries/Try2FuncComponent";
+import Try3ClassBaseComponent from "./tries/Try3ClassBaseComponent";
+import Try4App from "./tries/try4Lists/Try4App";
 import reportWebVitals from './reportWebVitals';
 
+//dasture render mokhtase in ast ke yek element ya componente reacti ra be jaye yek element
+//ke tarif shode beneshanad. har chand bar ke bekhahim mitavanim an ra hata darune halghe ham seda bezanim
+//ta component beruz shavad.
+//dar website haye single page application omdatan yek bar estefade shode va componente pedar darune an load mishavad
 ReactDOM.render(
-  <React.StrictMode>
+  /*<React.StrictMode>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>*/
+    <MainApp />,
+    document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
