@@ -2,7 +2,8 @@ import React from 'react'
 import './MainApp.css'
 import Try2FuncComponent from "../Try2FuncComponent";
 import Try3ClassBaseComponent from "../Try3ClassBaseComponent";
-import Try4App from "../try4Lists/Try4App";
+import TodosApp from "../try4-Lists/TodosApp";
+import GamesApp from "../try5-Styles/GamesApp";
 
 class MainApp extends React.Component {
     constructor(props) {
@@ -19,8 +20,12 @@ class MainApp extends React.Component {
                     component: <Try3ClassBaseComponent />
                 },
                 {
-                    title: "Lists (Try 4)",
-                    component: <Try4App />
+                    title: "Lists (Try 4 - Todos App)",
+                    component: <TodosApp />
+                },
+                {
+                    title: "Styles (Try 5 - Games App)",
+                    component: <GamesApp />
                 }
             ],
             selectedApp: null,

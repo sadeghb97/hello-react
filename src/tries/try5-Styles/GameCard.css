@@ -1,0 +1,39 @@
+.GameCard {
+    position: relative;
+    display: inline-block;
+    background-color: #61dafbAA;
+    border-radius: 8px;
+    width: 400px;
+    height: 310px;
+    margin: 12px;
+}
+
+.GameCard.altered {
+    background-color: #dc3b56AA;
+}
+
+.GameCard:hover {
+    background-color: #61dafbFF;
+}
+
+.GameCard.altered:hover {
+    background-color: #dc3b56FF;
+}
+
+.GameCard img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 370px;
+    height: 250px;
+    display: block;
+}
+
+.GameCard span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 10px;
+    left: 0;
+}

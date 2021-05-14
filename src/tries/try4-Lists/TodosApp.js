@@ -1,7 +1,7 @@
 import React from 'react'
 import TodosComponent from "./TodosComponent";
 
-class Try4App extends React.Component {
+class TodosApp extends React.Component {
     render() {
         return <div style={{margin: '30px', color: 'Red'}}>
             <TodosComponent todos={["Do something awesome"]} />
@@ -9,4 +9,4 @@ class Try4App extends React.Component {
     }
 }
 
-export default Try4App;
+export default TodosApp;

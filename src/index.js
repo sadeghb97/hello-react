@@ -5,7 +5,7 @@ import './index.css';
 import MainApp from "./tries/MainApp/MainApp";
 import Try2FuncComponent from "./tries/Try2FuncComponent";
 import Try3ClassBaseComponent from "./tries/Try3ClassBaseComponent";
-import Try4App from "./tries/try4Lists/Try4App";
+import TodosApp from "./tries/try4-Lists/TodosApp";
 import reportWebVitals from './reportWebVitals';
 
 //dasture render mokhtase in ast ke yek element ya componente reacti ra be jaye yek element

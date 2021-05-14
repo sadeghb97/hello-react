@@ -10,6 +10,9 @@ function Try2FuncComponent() {
     //ba har bar set state yek bare dg functione aslie component ejra mishe
     //natijatan in component mese ye timer amal mikone
     setTimeout(() => {
+
+        //dar setState inja khabari az merge nist state ghabli kamel az bein miravad
+        //albate dar func component ha mitavan state haye mokhtalef ba nam jaye mokhtalef dasht
         setState({
             count: state.count + 1
         })
