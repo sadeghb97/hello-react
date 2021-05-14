@@ -1,26 +1,10 @@
 import React from 'react'
 import GameCard from "./GameCard";
-import tlou2Image from "./images/tlou2.jpg"
-import tlou2AltImage from './images/tlou2-2.jpg'
-import bloodborneImage from "./images/bloodborne.jpeg"
-import bloodborneAltImage from "./images/bloodborne-2.jpg"
+import {games} from "../datas/data";
 
 class GamesApp extends React.Component {
     state = {
-        games: [
-            {
-                image: tlou2Image,
-                altImage: tlou2AltImage,
-                title: "The Last Of Us Part 2",
-                altered: false
-            },
-            {
-                image: bloodborneImage,
-                altImage: bloodborneAltImage,
-                title: "BloodBorne",
-                altered: false
-            }
-        ]
+        games: games
     }
 
     render() {

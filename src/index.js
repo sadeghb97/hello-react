@@ -1,11 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import App from './App';
 import MainApp from "./tries/MainApp/MainApp";
-import Try2FuncComponent from "./tries/Try2FuncComponent";
-import Try3ClassBaseComponent from "./tries/Try3ClassBaseComponent";
-import TodosApp from "./tries/try4-Lists/TodosApp";
 import reportWebVitals from './reportWebVitals';
 
 //dasture render mokhtase in ast ke yek element ya componente reacti ra be jaye yek element

@@ -4,6 +4,8 @@ import Try2FuncComponent from "../Try2FuncComponent";
 import Try3ClassBaseComponent from "../Try3ClassBaseComponent";
 import TodosApp from "../try4-Lists/TodosApp";
 import GamesApp from "../try5-Styles/GamesApp";
+import GamesBootstrapApp from "../try6-Bootstrap/GamesBootstrapApp";
+import GamesSliderApp from "../try7-ReactBootstrap/GamesSliderApp";
 
 class MainApp extends React.Component {
     constructor(props) {
@@ -26,7 +28,15 @@ class MainApp extends React.Component {
                 {
                     title: "Styles (Try 5 - Games App)",
                     component: <GamesApp />
-                }
+                },
+                {
+                    title: "Bootstrap (Try 6 - Games Bootstrap App)",
+                    component: <GamesBootstrapApp />
+                },
+                {
+                    title: "React Bootstrap - Dynamic Components (Try 7 - Games Slider App)",
+                    component: <GamesSliderApp />
+                },
             ],
             selectedApp: null,
         }
