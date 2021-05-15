@@ -6,6 +6,7 @@ import TodosApp from "../try4-Lists/TodosApp";
 import GamesApp from "../try5-Styles/GamesApp";
 import GamesBootstrapApp from "../try6-Bootstrap/GamesBootstrapApp";
 import GamesSliderApp from "../try7-ReactBootstrap/GamesSliderApp";
+import CriticalContainerApp from "../try8-ErrorBoundary/CriticalContainerApp";
 
 class MainApp extends React.Component {
     constructor(props) {
@@ -36,6 +37,10 @@ class MainApp extends React.Component {
                 {
                     title: "React Bootstrap - Dynamic Components (Try 7 - Games Slider App)",
                     component: <GamesSliderApp />
+                },
+                {
+                    title: "Error Boundaries (Try 8 - Critical Container)",
+                    component: <CriticalContainerApp />
                 },
             ],
             selectedApp: null,
